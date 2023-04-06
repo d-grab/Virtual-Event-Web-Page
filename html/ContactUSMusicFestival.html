@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <meta name="author" content="Daniel Grabinski">
+      <title>The Rivers Music Festival 2021</title>
+	  <link rel="stylesheet" href="../css/ContactUsMusicFestival.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="header">
+                <nav>
+                   <a href="index.html"><img src="../images/PngItemf.png" alt="Festival_Logo"></a>
+                   <div class="nav-links" id="navLinks">
+                     <i class="fa fa-times"  onclick="hideMenu()"></i>				   
+                           <ul>
+                             <li><a href="index.html">Home</a></li>
+                             <li><a href="MusicFestivalFestival.html">Festival</a></li>
+                             <li><a href="FAQMusicFestival.html">FAQ</a></li>
+                             <li><a href="ContactUsMusicFestival.html">Contact Us</a></li>
+							 <li><a href="funzonemusicfestival.html">Fun</a></li>
+                            </ul>
+                     </div>
+					 <i class="fa fa-bars" onclick="showMenu()"></i>
+                 </nav>
+		   <div class="text-box">
+				 <h2> Contact Us</h2>
+			</div>
+	 </div>
+	 
+	 
+	 <!--Contact us form-->
+
+  <div class="contactform">
+    <form action="../php/dbconnect.php" method="post">
+    <div class="contactusform"> 
+	
+                <label for="firstname">First Name</label>
+                <input type="text" class="form-control" id="firstname" name="firstname"/>
+             
+              
+                <label for="lastname">Last Name</label>
+                <input type="text" class="form-control" id="lastname" name="lastname"/>
+             
+             
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" name="city"/>
+                  
+                
+              <div>
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" name="email"/>
+              </div>
+			  
+              <div>
+                <label for="Message">Message</label>
+                <input type="text" class="form-control"   id="Message"  name="Message" style="height: 200px;"/>
+				</div>
+              <input type="submit" class="btn btn-primary" />
+		 </div>
+            </form>
+  </div> 
+ 
+		 <!--Toggle Menu -->
+		 <script>
+		  var navLinks = document.getElementByID("navLinks");
+		  function showMenu(){
+		  navLinks.style.right = "0";
+      }
+		  function hideMenu(){
+		  navLinks.style.right = "-200px";
+      }
+		 </script>
+		 
+	<footer>
+	   <div class="container">
+			 <div class="logo">
+			       <h2>The Rivers Music Festival</h2>
+                           <p> email: contact@therivers.com</p>
+                           <p>0044675453456</p>
+			               <p> 12 Hyde Park </p>
+			               <p>London SN2 85H<p>
+			 </div>
+	 </div>
+  </footer>
+			 <section class="copyright">
+			     <div class="container">
+			        <h4>&copy; 2020 copyright all reserved</h4>
+			     </div>
+			 </section>
+	
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <meta name="author" content="Daniel Grabinski">
+      <title>Two Rivers Music Festival 2021 - About</title>
+	  <link rel="stylesheet" href="../css/FAQMusicFestival.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="header">
+                <nav>
+                   <a href="index.html"><img src="../images/PngItemf.png" alt="logo"></a>
+                   <div class="nav-links" id="navLinks">
+                     <i class="fa fa-times" onclick="hideMenu()"></i>				   
+                           <ul>
+                             <li><a href="index.html">Home</a></li>
+                             <li><a href="MusicFestivalFestival.html">Festival</a></li>
+                             <li><a href="FAQMusicFestival.html">FAQ</a></li>
+                             <li><a href="ContactUsMusicFestival.html">Contact Us</a></li>
+							  <li><a href="funzonemusicfestival.html">Fun</a></li>
+                            </ul>
+                     </div>
+					 <i class="fa fa-bars" onclick="showMenu()"></i>
+                 </nav>
+	    </div>
+	 
+	 <section class="description">
+    <h2>FAQ</h2>
+<p>We appreciate it’s been a year of uncertainty and we, alongside many, have definitely felt the challenges brought upon us.  That said, despite the exceptional circumstances we have all experienced, we have been overwhelmed by the sense of connection and community spirit received from our Playground family and want to thank you from the bottom of our hearts.  We appreciate beyond measure the support you have shown our small, but incredible team in being able to adapt and continue to organise The Rivers Music Festival 2021. </p>
+     <p>We have put together some FAQs for you that should help answer any queries you may have.  </p>
+	 </section>
+	 
+<!--FAQ-->
+        <section class="faqsection">
+            <div class="faq-one">
+                <h2 class="faq-question">How Can I get access to The Rivers Music Festival ?</h2>
+                <div class="faq-body">
+                    <p>After making a payment, You will get the link for the ZOOM meeting. That link will be active on the day of the event. Only what You need is access to the internet.
+                        You will get your username and password, which You will use for login purposes. </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+                <h2 class="faq-question">Can I access The Festival from my mobile phone ?</h2>
+                <div class="faq-body">
+                    <p>
+                        Yes !!! . You can access it from any internet browser and any mobile device, only what You need is a stable internet connection. Preferable is a device with 
+                        bigger screen for better impression</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+                <h2 class="faq-question">Can I access an event from one account simultaneously on two different devices ? ?</h2>
+                <div class="faq-body">
+                    <p>Unfortunately not. You can log in only to one device from the same account. If You want to get access to two devices, You need to buy another 
+                        ticket to the Music Festival. </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-three">
+              <h2 class="faq-question">Can I access two channels in the same time ?</h2>
+                <div class="faq-body">
+                  <p> You can access only one channel at time. It will be an option to buy record from any stages, becaouse all artist will be recorded.</p>
+                </div>
+            </div>
+			<hr class="hr-line">
+			<div class="faq-four">
+                <h2 class="faq-question">What if I can not access the Festival (The link is not working) ?. Can I get a refund?</h2>
+                <div class="faq-body">
+                   <p> We provide online chat and video calls to help with access to The Music Festival. If You are not happy with your purchase, You can get a refund until 12 hours after your purchase. </p>
+                </div>
+            </div>
+			<hr class="hr-line">
+			<div class="faq-five">
+                <h2 class="faq-question">Can I get access only for the artist I would like to see, or do I have to obtain access for all events?</h2>
+                <div class="faq-body">
+                   <p> Yes. There are many options of how can You get access to the event. You can get access only for one stage, channel or only for some time. It is up to You how much You would like to see and how much You would like to pay. All of the details will be provided in the email after the registration.</p>
+                </div>
+            </div>
+			<hr class="hr-line">
+			<div class="faq-seven">
+                <h2 class="faq-question">Sponsors</h2>
+                <div class="faq-body">
+                    <p>If you have a business or organisation that you would like associated with The Rivers Music Festival and the promotion of live original music and music in the community, we'd be interested to hear about it. There are various sponsorship opportunities available. the event itself attracts over 700 people and the pre-publicity runs for several months, including emails, leaflets, social media campaigns and banners, all of which will carry sponsors' logos. For more details, please drop us an email and we'll get back to you.</p>
+                </div>
+            </div>
+        </section>
+		
+		
+		
+    <script>
+	var faq = document.getElementsByClassName("faq-question");
+var i;
+for (i = 0; i < faq.length; i++) {
+    faq[i].addEventListener("click", function () {
+        
+        this.classList.toggle("active");
+       
+        var body = this.nextElementSibling;
+        if (body.style.display === "block") {
+            body.style.display = "none";
+        } else {
+            body.style.display = "block";
+        }
+    });
+}
+</script>
+
+
+
+		 <!--Toggle Menu -->
+		 <script>
+		  var navLinks = document.getElementByID("navLinks");
+		  
+		  function showMenu(){
+		  navLinks.style.right = "0";
+		  }
+		  function hideMenu(){
+		  navLinks.style.right = "-200px";
+		  }
+		 </script>
+
+		 <footer>
+			 <div class="container">
+			 <div class="logo">
+			 <h1>The Rivers Music Festival</h1>
+			 <p> email: contact@therivers.com</p>
+             <p>0044675453456</p>
+			 <p> 12 Hyde Park </p>
+			 <p>London SN2 85H<p>
+			 </div>
+			 </div>
+			 </footer>
+			 <section class="copyright">
+			 <div class="container">
+			 <h4>&copy; 2020 copyright all reserved</h4>
+			 </div>
+			 </section>
+</body>
+</html>
